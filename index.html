@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>文本框 - 表单验证</title>
+  <link rel="stylesheet" href="https://cdn.w3cbus.com/library/mdui/1.0.2/css/mdui.min.css"/>
+</head>
+<body>
+
+
+    <div class="mdui-textfield mdui-textfield-floating-label">
+      <label class="mdui-textfield-label">Password（💡Brithday）</label>
+      <input class="mdui-textfield-input" input type="text" name="" oninput="value=value.replace(/[^\d]/g,'')" maxlength="6"/>
+      <div class="mdui-textfield-error">密码至多 6 位，且仅为数字</div>
+      <div class="mdui-textfield-helper">请输入至多 6 位，且仅为数字</div>
+    </div>
+  </div>
+
+  <script src="https://cdn.w3cbus.com/library/mdui/1.0.2/js/mdui.min.js"></script>
+</body>
+</html>
